@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/get_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get_second"/>
+
+    <Button
+        android:id="@+id/jumoToSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jumoToSecond"/>
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get"/>
+
+</LinearLayout>
