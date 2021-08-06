@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.llw.helloworld"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] /home/mi/.gradle/caches/transforms-2/files-2.1/e601daed4ba62929db8b322b2974c8f8/core-1.1.0/AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:10:9-35
+18        android:theme="@style/Theme.HelloWorld" >
+18-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:11:9-48
+19
+20        <!-- <activity android:name=".MainActivity"> -->
+21        <!-- <intent-filter> -->
+22        <!-- <action android:name="android.intent.action.MAIN" /> -->
+23        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+24        <!-- </intent-filter> -->
+25        <!-- </activity> -->
+26
+27        <activity android:name="com.llw.helloworld.SecondActivity" >
+27-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:19:9-24:20
+27-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:19:19-49
+28            <intent-filter>
+28-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:20:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:21:17-69
+29-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:22:17-77
+31-->/home/mi/下载/HelloWorld/HelloWorld/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

@@ -1,0 +1,4 @@
+#Mon Jul 05 17:09:02 CST 2021
+base.0=/home/mi/下载/HelloWorld/HelloWorld/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
